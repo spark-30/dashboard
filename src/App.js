@@ -1,15 +1,14 @@
-// App.js
-import React from 'react';
-import Sidebar from './Sidebar';
-import Dashboard from './Dashboard';
+import './App.css';
+import Sidebar from './components/Sidebar';
+import Dashboard from './components/Dashboard';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="app">
       <Sidebar />
       <Dashboard />
     </div>
   );
-};
+}
 
 export default App;

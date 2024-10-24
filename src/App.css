@@ -1,0 +1,252 @@
+.app {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #004d2c;
+    padding: 20px;
+  }
+  
+  .dashboard {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+    
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .dashboard-content {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .add-button {
+    background-color: #3b8b53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-button:hover {
+    background-color: #4db870;
+  }
+
+/* App.css */
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #004d2c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+  }
+  
+  .sidebar li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .dashboard {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .add-button {
+    background-color: #3b8b53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-button:hover {
+    background-color: #4db870;
+  }
+
+/* General Layout */
+.dashboard-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  /* Container for Temperature, Water Content, and pH */
+  .environment-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between the items */
+  }
+  
+  /* Container for Financial Statistics */
+  .financial-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+/* App.css */
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #004d2c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+  }
+  
+  .sidebar li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .dashboard {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  /* Temperature, Water Content, pH arranged vertically */
+  .environment-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Financial Statistics arranged vertically */
+  .financial-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .add-button {
+    background-color: #3b8b53;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .add-button:hover {
+    background-color: #4db870;
+  }
+  

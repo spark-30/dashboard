@@ -1,0 +1,35 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f8f8f8;
+    flex-grow: 1;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .environment-data, .financial-stats {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profit-stats {
+    display: flex;
+  }
+  
+  .stat-box {
+    background-color: white;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  
